@@ -1,0 +1,130 @@
+.modal {
+    font: 400 12px/16px Verdana;
+}
+
+.modal > .header {
+    width: 100%;
+    padding: 20px 5px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #124F87;
+}
+  
+.modal > .content {
+    width: 100%;
+    padding: 0px 5px;
+}
+  
+.modal > .actions {
+    margin: auto;
+}
+  
+.modal > .actions {
+    width: 100%;
+    padding: 0px 5px;
+    text-align: center;
+}
+  
+.modal > .close {
+    color: #FF0000;
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+    text-decoration: none;
+}
+
+.button {
+    color: #124F87;
+    cursor: pointer;
+    padding: 0px 30px;
+    display: inline-block;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1.5px;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    border: 3px solid #cfcece;
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    outline-color: #124F87;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.button:hover,
+.button.hover {
+    border-color: #2980b9;
+}
+
+.successButton {
+    color: #124F87;
+    cursor: pointer;
+    padding: 0px 30px;
+    display: inline-block;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1.5px;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    border: 3px solid #cfcece;
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    outline-color: #124F87;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.successButton:hover,
+.successButton.hover {
+    color: #4BB543;
+    border-color: #4BB543;
+}
+
+.errorButton {
+    color: #124F87;
+    cursor: pointer;
+    padding: 0px 30px;
+    display: inline-block;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1.5px;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    border: 3px solid #cfcece;
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    outline-color: #124F87;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.errorButton:hover,
+.errorButton.hover {
+    color: #FF0000;
+    border-color: #FF0000;
+}

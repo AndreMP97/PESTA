@@ -1,0 +1,1 @@
+React was used as a front-end technology.
